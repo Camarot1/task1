@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/css/header-footer.css">
+    <link rel="stylesheet" href="./scss/css/add.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="./index.html"><img src="./img/lapa.png" class="logo" width="102" height="128" alt=""></a>
+            <div class="header__search"><input type="text"> <a href="/search.html"><img src="./img/lupa.png" class="lupa" width="37"
+                    height="37" alt=""></a></div>
+            <ul class="header__list">
+                <a href="">
+                    <li class="el">Отзывы</li>
+                </a>
+                <a href="./register.html">
+                    <li class="el">Регистрация</li>
+                </a>
+                <a href="./login.html">
+                    <li class="el">Войти</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <h1 class="main__title">Добавление записи о найденном животном</h1>
+            <div class="main__data">
+                <p>Укажите ваш номер</p>
+                <input type="text" placeholder="+79999999999">
+                <p>Укажите ваш e-mail</p>
+                <input type="text" placeholder="email">
+                <div class="data_checkbox">
+                    <div class="box">
+                        <input type="checkbox" class="checkbox-main"></br>
+                        <p class="text-small">Хотите ли автоматически зарегистрироваться на нашем сайте?</p></br>
+                    </div>
+                    <div class="element-hidden hidden">
+                    </br>
+                        <p class="title-hidden">Укажите пароль</p>
+                        <input type="password" class="password-hidden" placeholder="Пароль">
+                        <input type="password" class="password-hidden" placeholder="Повтор пароля">
+                    </div>
+                </div>
+                <p>Вид животного</p>
+                <input type="text" placeholder="Вид животного">
+                <p>Укажите фотографии</p>
+                <div class="input__pic">
+                    <input type="image">
+                    <input type="image">
+                    <input type="image">
+                </div>
+                <p>Клеймо</p>
+                <input type="text" placeholder="Клеймо">
+                <p>Район</p>
+                <input type="text" placeholder="Район">
+                <p>Дата, когда было найдено животное</p>
+                <input type="date">
+                <div class="data_checkbox">
+                    <input type="checkbox">
+                    <p text-small>Согласие на обработку персональных данных</p>
+                </div>
+                <button class="data__button">Отправить</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <img src="./img/lapa.png" width="102" height="128" alt="">
+            <p class="footer__number">Наш номер </br> 8 (800)123-45-67</p>
+            <p class="footer__mail">Наша почта </br> mail@newlife.ru</p>
+            <ul class="footer__list">
+                <a href="">
+                    <li class="footer__el">Главная</li>
+                </a>
+                <a href="">
+                    <li class="footer__el">Регистрация</li>
+                </a>
+                <a href="">
+                    <li class="footer__el">Авторизация</li>
+                </a>
+                <a href="">
+                    <li class="footer__el">Личный каинет</li>
+                </a>
+                <a href="">
+                    <li class="footer__el">Найдено животное</li>
+                </a>
+                <a href="">
+                    <li class="footer__el">Поиск</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./script/add.js"></script>
+
+</html>

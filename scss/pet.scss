@@ -1,0 +1,22 @@
+%flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__container{
+    @extend %flex;
+    .main__img{
+        @extend %flex;
+        flex-direction: row;
+        gap: 200px;
+        margin:104px 0 150px 0;
+    }
+    ul{
+        @extend %flex;
+        gap: 11px;
+        margin-bottom: 70px;
+    }
+    li{
+        font-size: 40px;
+    }
+}

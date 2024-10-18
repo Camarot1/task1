@@ -1,0 +1,65 @@
+%flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__container {
+    @extend %flex;
+    align-items: center;
+
+    .main__data {
+        @extend %flex;
+        gap: 48px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    input {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(3);
+    }
+
+    .text-small {
+        font-size: 20px;
+    }
+    .data_checkbox{
+        @extend %flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .box{
+        display: flex;
+        gap: 20px;
+    }
+    .password-hidden{
+        padding: 20px 0;
+    }
+    .input__pic{
+        @extend %flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+    .data__button{
+        padding: 39px 30px;
+        font-size: 45px;
+        margin-bottom: 30px;
+        border:1px solid black;
+        cursor: pointer;
+    }
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,56 @@
+.main__container .input__pic, .main__container .data_checkbox, .main__container .main__data, .main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__container {
+  align-items: center;
+}
+.main__container .main__data {
+  gap: 48px;
+  align-items: center;
+}
+.main__container p {
+  font-size: 40px;
+  text-align: center;
+}
+.main__container input {
+  font-size: 40px;
+}
+.main__container h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.main__container input[type=checkbox] {
+  transform: scale(3);
+}
+.main__container .text-small {
+  font-size: 20px;
+}
+.main__container .data_checkbox {
+  flex-direction: row;
+  gap: 50px;
+}
+.main__container .box {
+  display: flex;
+  gap: 20px;
+}
+.main__container .password-hidden {
+  padding: 20px 0;
+}
+.main__container .input__pic {
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.main__container .data__button {
+  padding: 39px 30px;
+  font-size: 45px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
